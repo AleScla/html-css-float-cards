@@ -11,10 +11,6 @@
     margin:auto;
 }
 
-.bg-dark{
-    background-color:#0F0E17;
-}
-
 .float-left{
     float:left;
 }
@@ -51,6 +47,7 @@ p{
     width:calc(100% / 3 - 40px);
     margin:20px;
     box-shadow: 10px 10px 10px grey;
+    background-color:#0F0E17;
     
 }
 
