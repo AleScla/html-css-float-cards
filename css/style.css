@@ -2,6 +2,34 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:
-    font-family: "Fredoka", sans-serif;
+    font-family:"Fredoka", sans-serif;
 }
+
+/* General */
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.bg-dark{
+    background-color:#0F0E17;
+}
+
+
+/* Header */
+h1{
+    color:#E53170;
+    text-align:center;
+    margin:40px 0;
+}
+
+h1:hover{
+    text-shadow:1px 1px #a52c56;
+}
+
+/* main */
+
+p{
+    text-align:center;
+}
+
