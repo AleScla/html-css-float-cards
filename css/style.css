@@ -15,6 +15,17 @@
     background-color:#0F0E17;
 }
 
+.float-left{
+    float:left;
+}
+
+.clearfix::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+
 
 /* Header */
 h1{
@@ -32,4 +43,32 @@ h1:hover{
 p{
     text-align:center;
 }
+
+.card{
+    color:white;
+    height:120px;
+    background-color:black;
+    width:calc(100% / 3 - 40px);
+    margin:20px;
+    box-shadow: 10px 10px 10px grey;
+    
+}
+
+h3{
+    padding:10px;
+}
+
+img{
+    height:100%;
+    margin-right:10px;
+}
+
+a{
+    text-decoration:none;
+    color:#5DC3E4;
+    display:inline-block;
+    margin-top:10px;
+}
+
+
 
